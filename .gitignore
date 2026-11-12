@@ -1,0 +1,25 @@
+# Patient and sequencing data: NEVER commit
+*.vcf
+*.vcf.gz
+*.bam
+*.bai
+*.cram
+*.fastq
+*.fastq.gz
+*.avinput
+*.RData
+*.rds
+*.hom
+*.hom.indiv
+*.cnr
+*.cns
+*.cnn
+*.intervar
+*.tsv
+
+# Local configuration and results
+config/config.sh
+work/
+results/
+data/
+*.log
