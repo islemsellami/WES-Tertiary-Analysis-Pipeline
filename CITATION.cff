@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite it as below."
+title: "WES tertiary analysis pipeline for rare genetic diseases (SNV, CNV, ROH, ACMG, AI-based prioritization)"
+type: software
+version: 1.0.0
+date-released: "2026-11-12"
+license: MIT
+authors:
+  - family-names: Sellami
+    given-names: Islem
+    affiliation: "Institut Superieur de Biotechnologie de Sidi Thabet (ISBST), University of La Manouba; Laboratory of Biomedical Genomics and Oncogenetics (LR16IPT05), Institut Pasteur de Tunis"
+  - family-names: Romdhane
+    given-names: Lilia
+    affiliation: "Laboratory of Biomedical Genomics and Oncogenetics (LR16IPT05), Institut Pasteur de Tunis"
+repository-code: "https://github.com/islemsellami/WES-Tertiary-Analysis-Pipeline"
+keywords: [whole-exome-sequencing, rare-diseases, ACMG, CNV, bioinformatics]

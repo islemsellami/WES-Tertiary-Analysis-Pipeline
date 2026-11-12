@@ -1,0 +1,6 @@
+# CNVkit needs Python <= 3.10 (pomegranate 0.14.x). Kept in a separate environment.
+name: wes-cnvkit
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.10
+  - cnvkit=0.9.12

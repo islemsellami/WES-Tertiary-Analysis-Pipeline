@@ -1,0 +1,5 @@
+# ExomeDepth (R package) in its own R environment.
+name: wes-exomedepth
+channels: [conda-forge, bioconda]
+dependencies:
+  - r-exomedepth

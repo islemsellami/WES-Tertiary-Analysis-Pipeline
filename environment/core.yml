@@ -1,0 +1,16 @@
+# Core tools: filtering, annotation, merging, ROH, coverage, Samplot.
+# Create with:  micromamba env create -f environment/core.yml   (or conda env create -f ...)
+name: wes-core
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.10
+  - vcftools
+  - bcftools
+  - htslib            # bgzip, tabix
+  - samtools
+  - bedtools
+  - plink             # PLINK 1.9
+  - snpeff
+  - snpsift
+  - samplot
+  - pandas
